@@ -1,0 +1,111 @@
+.no-margin {
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
+}
+html, body{
+ height: 100%;
+}
+header {
+    background: url(/img/intro5.jpg) center center;
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+header h1 {
+    font-size: 4em;
+}
+.vide1 {
+    height: 20%;
+}
+.navbar {
+    color: black;
+    width: 100%;
+    z-index: 999;
+}
+.container {
+    color: black;
+    width: 100%;
+}
+.menu {
+    width: 60%;
+    margin: auto;
+    background-color: #F8F8F8;
+}
+.menu-lien {
+    text-align: center;
+    list-style: none;
+    float: right;
+}
+.menu li {
+    line-height: 1.5em;
+    display: inline-block;
+    margin: 0 1em;
+    padding: 0.8em 0;
+}
+.menu li a {
+    text-decoration: none;
+    color: inherit;
+}
+.titre {
+    text-align: center;
+}
+.section1 {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 130px;
+}
+section {
+    width: 60%;
+    margin: 100px auto;
+}
+.section2 a, .section3 a, .section6 a {
+    text-decoration: none;
+    color: white;
+}
+.section1 h3 {
+    padding: 25px 0;
+}
+.section1 img, .section7 img {
+    transition: transform 1s ease;
+}
+.section1 img:hover, .section7 img:hover {
+    transform: rotate(360deg);
+}
+.top60 {
+    margin-top: 60px;
+}
+.top130 {
+    margin-top: 130px;
+}
+.btn-vert {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00C69D;
+}
+.btn-bleu {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #288CDD;
+}
+.bold {
+    font-weight: bold;
+}
+.left {
+    text-align: left;
+}
+.section6 {
+    background-color: #36485F;
+    color: white;
+}
+.section8 {
+    background-image: url(/img/banner-bg.jpg);
+    color: white;
+}
+.section8 a {
+    padding: 10px;
+    color: white;
+    background-color: #36485F;
+}
